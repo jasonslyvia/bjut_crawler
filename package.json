@@ -1,0 +1,25 @@
+{
+  "name": "bjut_crawler",
+  "version": "0.0.1",
+  "description": "crawl student information from bjut",
+  "main": "bjut_info.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jasonslyvia/bjut_crawler.git"
+  },
+  "keywords": [
+    "crawler"
+  ],
+  "author": "jasonslyvia",
+  "license": "MIT",
+
+  "dependencies": {
+    "cheerio": ">= 0.0.1",
+    "iconv-lite": ">= 0.0.1",
+    "mysql": ">= 2.0.0-alpha9",
+    "async": ">= 0.0.1"
+  }
+}
